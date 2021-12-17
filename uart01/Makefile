@@ -1,6 +1,6 @@
 
-#ARMGNU ?= arm-none-eabi
-ARMGNU ?= arm-linux-gnueabi
+ARMGNU ?= arm-none-eabi
+# ARMGNU ?= arm-linux-gnueabi
 
 AARCH = -march=armv5t
 AOPS = --warn --fatal-warnings $(AARCH)

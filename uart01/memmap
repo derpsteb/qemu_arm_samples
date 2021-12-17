@@ -2,7 +2,7 @@
 /* memmap */
 MEMORY
 {
-    ram  : ORIGIN = 0x00000000, LENGTH = 32K
+    ram  : ORIGIN = 0x40200000, LENGTH = 32K
 }
 
 SECTIONS

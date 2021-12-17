@@ -1,25 +1,7 @@
 
 .globl _start
 _start:
-    b reset
-    b hang
-    b hang
-    b hang
-
-    b hang
-    b hang
-    b hang
-    b hang
-
-    b hang
-    b hang
-    b hang
-    b hang
-
-    b hang
-    b hang
-    b hang
-    b hang
+    b notmain
 
 reset:
     mov sp,#0x20000
